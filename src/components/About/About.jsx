@@ -48,7 +48,7 @@ const about = () => {
             <br />
             <p>
               As a Front-End Developer, I possess an impressive arsenal of
-              skills in HTML, CSS, JavaScript, React, Tailwind, and Sass. I
+              skills in HTML, CSS, Sass, JavaScript, React and Tailwind CSS. I
               excel in designing and maintaining responsive websites that offer
               a smooth user experience. My expertise lies in crafting dynamic,
               engaging interfaces through writing clean and optimized code and
