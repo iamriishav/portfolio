@@ -65,6 +65,14 @@ const skills = () => {
               <img src={images.tailwind} alt="Tailwind CSS" />
               <figcaption>Tailwind CSS</figcaption>
             </figure>
+            <figure>
+              <img src={images.postman} alt="Postman" />
+              <figcaption>Postman</figcaption>
+            </figure>
+            <figure>
+              <img src={images.vscode} alt="VS Code" />
+              <figcaption>VS Code</figcaption>
+            </figure>
           </div>
         </div>
       </section>

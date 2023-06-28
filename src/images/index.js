@@ -23,6 +23,8 @@ const images = {
   profile: require("./profile.webp"),
   edu: require("./edu.webp"),
   resume: require("./resume.pdf"),
-  lawyeric: require("./pro-lawyeric.webp")
+  lawyeric: require("./pro-lawyeric.webp"),
+  postman: require("./postman.webp"),
+  vscode: require("./vsCode.webp"),
 };
 export default images;
