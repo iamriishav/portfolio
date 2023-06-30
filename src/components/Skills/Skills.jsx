@@ -1,7 +1,6 @@
 import React from "react";
 import "./Skills.css";
 import images from "../../images/index";
-import { FaGithub } from "react-icons/fa";
 
 const skills = () => {
   return (
