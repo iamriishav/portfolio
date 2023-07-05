@@ -76,10 +76,7 @@ const project = () => {
                   <p>Github</p>
                   <RiGithubFill />
                 </a>
-                <a
-                  href="#"
-                  target="_blank"
-                >
+                <a href="#" target="_blank">
                   <p>Live</p>
                   <RiExternalLinkLine />
                 </a>
@@ -87,7 +84,7 @@ const project = () => {
             </div>
             <div className="pro-img">
               <a href="https://github.com/iamriishav/lawyeric">
-                <img src={images.lawyeric} alt="Cab Booking" />
+                <img src={images.lawyeric} alt="Lawyeric" />
               </a>
             </div>
           </div>
@@ -137,10 +134,7 @@ const project = () => {
                 <p>Openweathermap</p>
               </div>
               <div className="links">
-                <a
-                  href="https://github.com/iamriishav/skyline"
-                  target="_blank"
-                >
+                <a href="https://github.com/iamriishav/skyline" target="_blank">
                   <p>Github</p>
                   <RiGithubFill />
                 </a>
@@ -152,7 +146,7 @@ const project = () => {
             </div>
             <div className="pro-img pro-img3">
               <a href="https://skylineweather.vercel.app/">
-                <img src={images.weather} alt="Rik Weather" />
+                <img src={images.weather} alt="Skyline" />
               </a>
             </div>
           </div>
