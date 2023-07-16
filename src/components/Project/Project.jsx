@@ -76,7 +76,7 @@ const project = () => {
                   <p>Github</p>
                   <RiGithubFill />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://lawyeric.000webhostapp.com/" target="_blank">
                   <p>Live</p>
                   <RiExternalLinkLine />
                 </a>
