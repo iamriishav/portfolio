@@ -50,6 +50,7 @@ const contact = () => {
                 required
               ></textarea>
               {/* <ReCAPTCHA
+                id="g-recaptcha-response"
                 sitekey="6Lcai8ElAAAAAA_QaTfhHJKlxNf4Ur2IfvN4C4Si"
                 onChange={onChange}
               /> */}
