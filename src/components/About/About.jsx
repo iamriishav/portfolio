@@ -1,7 +1,8 @@
 import React from "react";
 import images from "../../images/index";
 import "./About.css";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const about = () => {
   return (
@@ -28,8 +29,8 @@ const about = () => {
                     <FaInstagram />
                   </a>
 
-                  <a href="https://twitter.com/iamriishav" target="_blank">
-                    <FaTwitter />
+                  <a href="https://x.com/iamriishav" target="_blank">
+                    <FaSquareXTwitter />
                   </a>
                 </div>
               </div>
