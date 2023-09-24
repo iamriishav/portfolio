@@ -26,5 +26,6 @@ const images = {
   lawyeric: require("./pro-lawyeric.webp"),
   postman: require("./postman.webp"),
   vscode: require("./vsCode.webp"),
+  java: require("./java.webp"),
 };
 export default images;

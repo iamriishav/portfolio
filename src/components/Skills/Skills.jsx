@@ -45,6 +45,10 @@ const skills = () => {
               <figcaption>MongoDB</figcaption>
             </figure>
             <figure>
+              <img src={images.java} alt="Java" />
+              <figcaption>Java</figcaption>
+            </figure>
+            <figure>
               <img src={images.python} alt="Python" />
               <figcaption>Python</figcaption>
             </figure>

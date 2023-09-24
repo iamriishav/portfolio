@@ -62,11 +62,16 @@
   margin: 2rem 0;
 }
 
+/* .pro:hover > .pro-img {
+  transform: translateY(-15%);
+} */
+
 .pro-img {
   width: 50%;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in;
 }
 
 .pro-img > a > img {
