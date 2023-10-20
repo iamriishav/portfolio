@@ -12,45 +12,50 @@ nav {
   z-index: 99;
 }
 
-.logo > a {
+.logo>a {
   text-decoration: none;
 }
 
-.logo > a > h2 {
+.logo>a>h2 {
   font-size: 1.6rem;
   color: var(--primary-color);
 }
 
-.logo > a > h2 > span {
+.logo>a>h2>span {
   color: #147efb;
 }
 
-.nav-items > ul {
+.nav-items>ul {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
 }
 
-.nav-items > ul > li {
+.nav-items>ul>li {
   list-style: none;
   font-size: 1rem;
   position: relative;
   font-weight: 600;
 }
 
-.nav-items > ul > li > a {
+.nav-items>ul>li>a {
   text-decoration: none;
   color: var(--primary-color);
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.nav-items > ul > li > a:hover {
-  color: #147efb;
+.nav-items:hover>ul>li>a {
+  filter: blur(3px);
 }
 
-.nav-items > ul > li::before {
+.nav-items>ul>li>a:hover {
+  color: #147efb;
+  filter: blur(0);
+}
+
+.nav-items>ul>li::before {
   content: "";
   position: absolute;
   right: 0;
@@ -63,11 +68,11 @@ nav {
   transition: transform 0.2s ease-in;
 }
 
-.nav-items > ul > li:hover::before {
+.nav-items>ul>li:hover::before {
   transform: scaleX(1);
 }
 
-.nav-items > ul > li::after {
+.nav-items>ul>li::after {
   content: "";
   position: absolute;
   left: 0;
@@ -80,7 +85,7 @@ nav {
   transition: transform 0.2s ease-in;
 }
 
-.nav-items > ul > li:hover::after {
+.nav-items>ul>li:hover::after {
   transform: scaleX(1);
 }
 
@@ -97,15 +102,19 @@ nav {
 }
 
 @media only screen and (max-width: 1180px) {
-  .logo > a > h2 {
+  .logo>a>h2 {
     font-size: 1.3rem;
   }
+  
+  .nav-items:hover>ul>li>a {
+    filter: blur(0);
+  }
 
-  .nav-items > ul {
+  .nav-items>ul {
     gap: 1rem;
   }
 
-  .nav-items > ul > li {
+  .nav-items>ul>li {
     font-size: 0.8rem;
   }
 }
@@ -131,24 +140,24 @@ nav {
     right: 0;
   }
 
-  .nav-items > ul {
+  .nav-items>ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 3rem;
   }
 
-  .nav-items > ul > li {
+  .nav-items>ul>li {
     font-size: 1.5rem;
     margin: 0.5rem 0;
   }
 
-  .nav-items > ul > li::before,
-  .nav-items > ul > li::after {
+  .nav-items>ul>li::before,
+  .nav-items>ul>li::after {
     background: #000;
   }
 
-  .nav-items > ul > li > a {
+  .nav-items>ul>li>a {
     color: #000;
   }
 
@@ -156,7 +165,7 @@ nav {
     display: block;
     cursor: pointer;
   }
-  
+
   #close {
     position: absolute;
     display: block;

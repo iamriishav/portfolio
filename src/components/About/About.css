@@ -41,6 +41,7 @@
 }
 
 /* <=====================================================> */
+
 .cardContainer {
   width: 350px;
   height: 450px;
@@ -137,29 +138,29 @@
   width: 60%;
 }
 
-.about-text > h2 {
+.about-text>h2 {
   font-size: 2.5rem;
   line-height: 5rem;
   color: var(--primary-color);
 }
 
-.about-text > h2 > img {
+.about-text>h2>img {
   width: 4rem;
 }
 
-.about-text > p {
+.about-text>p {
   text-align: justify;
   font-size: 1.3rem;
   color: var(--secondary-color);
   margin-bottom: 1rem;
 }
 
-.about-text > p > span {
+.about-text>p>span {
   color: #0073f7;
   font-weight: bold;
 }
 
-.about-text > a {
+.about-text>a {
   text-decoration: none;
   line-height: 3rem;
   padding: 1rem 3rem;
@@ -172,7 +173,7 @@
   box-shadow: 0px 3px 6px var(--boxshadow);
 }
 
-.about-text > a:hover {
+.about-text>a:hover {
   background-color: #ffd109;
   color: #000;
 }
@@ -185,7 +186,7 @@
   padding-top: 5rem;
 }
 
-.education-container > p {
+.education-container>p {
   color: var(--secondary-color);
 }
 
@@ -194,13 +195,13 @@
   line-height: 3rem;
 }
 
-.education-text > p {
+.education-text>p {
   font-size: 1rem;
   position: relative;
   color: var(--secondary-color);
 }
 
-.education-text > p::before {
+.education-text>p::before {
   content: "";
   position: absolute;
   width: 10px;
@@ -211,7 +212,7 @@
   left: 18%;
 }
 
-.education-text > h2 {
+.education-text>h2 {
   font-size: 2rem;
   line-height: 5rem;
   font-weight: 600;
@@ -219,7 +220,7 @@
   color: #147efb;
 }
 
-.education-text > h2::after {
+.education-text>h2::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -237,7 +238,7 @@
   width: 950px;
 }
 
-.education-items > a {
+.education-items>a {
   text-decoration: none;
   color: var(--primary-color);
   background-color: var(--background-color);
@@ -263,7 +264,7 @@
   box-shadow: 0px 3px 6px var(--boxshadow);
 }
 
-.education-img > img {
+.education-img>img {
   width: 75%;
 }
 
@@ -273,12 +274,12 @@
   gap: 0.4rem;
 }
 
-.education-details > p {
+.education-details>p {
   color: var(--secondary-color);
   font-size: 1.2rem;
 }
 
-.education-details > p > span {
+.education-details>p>span {
   color: #0073f7;
   font-weight: bold;
 }
@@ -302,7 +303,7 @@
     width: 100%;
   }
 
-  .education-items > a {
+  .education-items>a {
     width: 100%;
   }
 
@@ -311,7 +312,7 @@
     text-align: center;
   }
 
-  .about-text > a {
+  .about-text>a {
     line-height: 4rem;
     padding: 1rem 7rem;
     font-size: 1.2rem;
@@ -333,13 +334,13 @@
     text-align: center;
   }
 
-  .about-text > a {
+  .about-text>a {
     line-height: 4rem;
     padding: 1rem 7rem;
     font-size: 1.2rem;
   }
 
-  .about-text > p {
+  .about-text>p {
     font-size: 1.2rem;
     font-weight: lighter;
   }
@@ -349,7 +350,7 @@
     width: 100%;
   }
 
-  .education-items > a {
+  .education-items>a {
     width: 90%;
   }
 
